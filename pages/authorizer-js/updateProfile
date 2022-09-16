@@ -250,7 +250,7 @@ const user = await authRef.getProfile({
 
 ## - `updateProfile`
 
-Function to update profile of user. This function makes an authorized request, hence if it is used from the browser the HTTP cookie is sent if user has logged in else you need to pass headers object.
+Function to update profile of user.
 
 It accepts 2 JSON object as its parameters.
 
